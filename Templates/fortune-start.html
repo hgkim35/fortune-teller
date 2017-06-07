@@ -8,6 +8,10 @@
 <p> I will tell you your fortune...</p>
   <img src="http://3.bp.blogspot.com/_913i6e5Kxmk/TKsg_SCYSlI/AAAAAAAABzY/nUt22n56zAU/s1600/pepper_salt_fortune_teller.jpg">
   <body>
-    {{fortune}}
+    <form method="POST">
+      Enter your name and location to find out your fortune:
+      <input type="text" name="my_name"/>
+      <input type="text" name="my_location"/>
+      <input type="submit"/>
   </body>
 </html>
